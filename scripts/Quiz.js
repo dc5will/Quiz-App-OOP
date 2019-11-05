@@ -8,12 +8,14 @@ class Quiz extends Model {
   static DEFAULT_QUIZ_LENGTH = "20";
 
   constructor() {
+    // This line calls the superclass' constructor first
     super();
 
     // Array of Questions instances
     this.unasked = [];
     this.asked = [];
-    
+
+    // Here, we add specific properties and logic to our Quiz class
     this.score = 0;
     this.scoreHistory = [0];
     this.active = false;

@@ -117,6 +117,9 @@ class QuizDisplay extends Renderer {
   }
 
   template() {
+    /**
+     * This function must return an HTML string
+     */
     if (this.model.active && this.model.currQuestion().answerStatus() === -1) {
       return this._generateQuestion();
     } else if (
@@ -140,6 +143,9 @@ class QuizDisplay extends Renderer {
     }
   }
 
+  /**
+   * All event handler functions should call model methods
+   */
   handleStart() {
     this.model
       .startNewGame()
