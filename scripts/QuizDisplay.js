@@ -25,7 +25,7 @@ class QuizDisplay extends Renderer {
       <button class="grid-row grid-item col-2 start">Start</button>
     `;
   }
-  
+
   //loop through answers and generate radio buttons for each one
   _generateQuestion() {
     let answerElem = "";

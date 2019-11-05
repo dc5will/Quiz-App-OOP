@@ -9,8 +9,11 @@ class Quiz extends Model {
 
   constructor() {
     super();
+
+    // Array of Questions instances
     this.unasked = [];
     this.asked = [];
+    
     this.score = 0;
     this.scoreHistory = [0];
     this.active = false;
