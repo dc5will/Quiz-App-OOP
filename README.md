@@ -28,9 +28,14 @@
 - One core tenet of OOP is you have an object with data, but also functions attached to that object that read and manipulate the data.
 - Function constructors or the class syntax exist to let us create objects with functions that can be applied to those objects.
 - Methods that would be appropriate for use with multiple objects can also exist. An OOP concept called polymorphism refers to this practice, among other things.
-- **Polymorphism** = methods that can be used with multiple objects. Reuse code, classes, methods written once, tested and implemented. Maybe reused in many ways. 
 - **Inheritance** = allows for code reusuability and readility. When child class inherits the properties and functionality of parent class, we dont need to write the same code again in child class. Makes it easier to reuse the code, makes us write less code and code is much more readable. In JavaScript, we use prototypal inheritance instead of classical inheritance.
+- **Polymorphism** = methods that can be used with multiple objects. Reuse code, classes, methods written once, tested and implemented. Maybe reused in many ways. Gives us a way to use a class exactly like it parent, but each child class keep its own methods as they are.
 - Class inheritance is a way for one class to extend another class.
 - **Encapsulation** = enclosing all functionalities of an object within that object so that the object's internal workings (methods and props) are hidden from the rest of the application. Allows us to abstract or localize a specific set of functionalities on objects. The best pattern for encapsulation in JavaScript is with the constructor/prototype pattern.
+- **Abstraction** = each object should *only* expose a high-level mechanism for using it. This mechanism should hide internal implementation details, so it should only reveal operations relevant for the other objects.
+- Encapsulation and abstraction helps us develop and maintain a big codebase.
 
+### Resources
+https://www.freecodecamp.org/news/object-oriented-programming-concepts-21bb035f7260/
+https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_JS
 
